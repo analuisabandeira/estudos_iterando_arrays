@@ -16,7 +16,7 @@
 // Ex.
 // [
 //     {
-//         company: 'Rcoketseat',
+//         company: 'Rocketseat',
 //         users: [{}]
 //     }
 // ]
