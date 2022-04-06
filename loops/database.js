@@ -104,7 +104,7 @@ const users = [
     {
         name: 'Jose',
         age: 18,
-        company: 'Performait',
+        company: 'Performait solutions',
         techs: [
             {
                 id: 1,
@@ -125,7 +125,7 @@ const users = [
     {
         name: 'Rivaldo',
         age: 18,
-        company: 'Performait',
+        company: 'Performait solutions',
         techs: [
             {
                 id: 1,
@@ -146,7 +146,7 @@ const users = [
     {
         name: 'Ronaldo',
         age: 22,
-        company: 'Performait',
+        company: 'Performait solutions',
         techs: [
             {
                 id: 1,
