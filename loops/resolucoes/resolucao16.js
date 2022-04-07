@@ -1,6 +1,9 @@
 // 16 Um array igual ao de usuarios, mas adicionando os produtos que vão receber com estoque
 
-const allUsers = users.map { (user) => {
+const allUsers = users.map ()
+
+
+{ (user) => {
 
     return {
 

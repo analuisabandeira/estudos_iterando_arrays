@@ -6,26 +6,31 @@
 //     intern: 
 // }
 
-const techlead = users.filter(user => user.role === "techlead").map(user =>
+
+
+const techleads = users.filter(user => user.role === "techlead").map(user =>
     
     {
         return {
 
         techlead: user.name,
-        intern: users.forEach((usuario) => {
+        interns: users.filter(usuario => usuario.supervisor === user.name && usuario.role === "intern").map(usuario => usuario.name) 
 
-            if(usuario.role === "intern") {
-
-                if(usuario.supervisor === user.name) {
-
-                    return usuario.name;
-                } else {
-
-                    return "There's no intern";
-                }                
-            }
-        })
         }
     });
 
-console.log(techlead);
+// Outra forma de fazer 
+
+// techleads.forEach(supervisor => {
+
+//     if(supervisor.interns.length > 0) {
+
+//         arrayFinal.push(supervisor);
+
+//     }
+// }); 
+
+const arrayFinal = techleads.filter(supervisor => supervisor.interns.length > 0);
+
+
+console.log(arrayFinal);
