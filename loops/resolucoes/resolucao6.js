@@ -17,17 +17,3 @@ users.forEach(user => {
 })
 
 console.log(allFrontendDevelopers);
-
-    // techs.every(tech => {
-
-    //     if(tech.stack === "frontend") {
-
-    //         return {
-
-    //             user: user.name,
-    //             stack: tech.stack
-    //         }
-    //     }  
-    //     console.log(tech);
-    // })
-// })

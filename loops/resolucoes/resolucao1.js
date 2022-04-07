@@ -1,7 +1,3 @@
-// ********** RESOLUÇÃO DO EXERCÍCIO ********** //
-
-
-
 // 1. Um array com o apenas nome de todos os usuarios (só as strings)
 
 users.sort((function (a, b) {
@@ -17,4 +13,4 @@ users.sort((function (a, b) {
 }));
 
 const usersName = users.map((user) => user.name);
-// console.log(usersName);
+console.log(usersName);
