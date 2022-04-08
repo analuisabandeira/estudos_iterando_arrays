@@ -4,7 +4,7 @@ const allSupervisors = [];
 
 const usersSupervisors = users.filter(user => user.supervisor).map(user => user.supervisor);
 
-console.log(usersSupervisors);
+// console.log(usersSupervisors);
 
 usersSupervisors.forEach(supervisor => {
 

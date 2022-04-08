@@ -8,4 +8,4 @@ const somaDasIdades = users.reduce((sum, user) => {
  
  const mediaDasIdades = +(somaDasIdades / users.length).toFixed(2);
  
-//  console.log(`A média das idades dos usuários é de ${mediaDasIdades} anos`);
+ console.log(`A média das idades dos usuários é de ${mediaDasIdades} anos`);

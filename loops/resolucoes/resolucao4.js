@@ -50,7 +50,7 @@ users.forEach(user => {
     }
 })
 
-console.log(todasAsEmpresas)
+// console.log(todasAsEmpresas)
 
 const objetoVazio = {
 

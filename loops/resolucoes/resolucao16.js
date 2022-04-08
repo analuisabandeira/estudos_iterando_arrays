@@ -1,21 +1,19 @@
 // 16 Um array igual ao de usuarios, mas adicionando os produtos que vão receber com estoque
 
-const allUsers = users.map ()
-
-
-{ (user) => {
+const allUsers = users.map (user => {
 
     return {
 
-        ...users
-        product: 
-        quantity:
+        ...user,
 
-    }
-}
+        product: produtos.filter(product => product.rolesToDelivery.some(el => el === user.role)).map(product => {
+            
+            return {
+                
+                name: product.name,
+                quantity: product.quantity
+            } 
+        })
+    }});
 
-}
-
-//1) Verificar o role do user
-//2) Verificar se esse role recebe o produto
-//3) Montar o objeto atualizado
+console.log(allUsers);
