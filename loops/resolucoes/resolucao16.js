@@ -6,7 +6,7 @@ const allUsers = users.map (user => {
 
         ...user,
 
-        product: produtos.filter(product => product.rolesToDelivery.some(el => el === user.role)).map(product => {
+        products: produtos.filter(product => product.rolesToDelivery.some(el => el === user.role)).map(product => {
             
             return {
                 

@@ -14,3 +14,5 @@ users.sort((function (a, b) {
 
 const usersName = users.map((user) => user.name);
 console.log(usersName);
+
+// Prefeito

@@ -1,8 +1,10 @@
 // 8. Um filtro só com quem é estagiário do Ronaldo
 
-const ronaldoIntern = {
+const ronaldoInterns = {
     
-    ronaldoIntern: users.filter (user => user.supervisor === "Ronaldo").map(user => user.name)
+    ronaldoInterns: users.filter (user => user.supervisor === "Ronaldo").map(user => user.name)
 };
 
-console.log(ronaldoIntern);
+console.log(ronaldoInterns);
+
+// Sempre que a variável se remeter a um array, fazer ela no plural.

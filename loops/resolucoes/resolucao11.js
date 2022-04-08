@@ -1,8 +1,10 @@
 // 11. Um filtro só com produtos que tem estoque
 
-const haveStock = {
+const productsWithStock = {
     
     products: produtos.filter(product => product.quantity > 0).map(product => product.name)
 }
 
-console.log(haveStock);
+console.log(productsWithStock);
+
+// Certin

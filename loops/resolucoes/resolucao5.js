@@ -3,7 +3,7 @@
 
 const allTechs = [];
 
-const techs = users.filter(user => user.techs.map(tech => {
+users.forEach(user => user.techs.map(tech => {
 
     if (!allTechs.some(el => el === tech.name)) {
 
@@ -22,3 +22,5 @@ const usersTechs = allTechs.map (tech => {
 })
 
 console.log(usersTechs);
+
+// Excelente

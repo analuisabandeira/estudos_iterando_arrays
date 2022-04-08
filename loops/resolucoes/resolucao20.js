@@ -2,7 +2,18 @@
 
 const allTheCompanies = []
 
-const companies = users.filter(user => {
+
+// const companies = users.filter(user => {
+
+//     if (!allTheCompanies.some(el => el === user.company)) {
+
+//         allTheCompanies.push(user.company);
+//     }
+
+// });
+
+// Correção: Usar foreach no lugar do filter, e não precisa armazenar isso
+users.forEach(user => {
 
     if (!allTheCompanies.some(el => el === user.company)) {
 
@@ -28,3 +39,5 @@ const arrayAllTheCompanies = allTheCompanies.map(company => {
 })
 
 console.log(arrayAllTheCompanies);
+
+// Quase acertou tudo, precisou somente um code review
